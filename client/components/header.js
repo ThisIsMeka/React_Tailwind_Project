@@ -4,7 +4,7 @@ const Header = () => {
   const [toggled, toggle] = useState(false)
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+    <nav className="flex items-center bg-teal-500 justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <svg
           className="fill-current h-8 w-8 mr-2"
@@ -21,7 +21,7 @@ const Header = () => {
           className="font-semibold text-xl tracking-tight"
           onClick={() => toggle(!toggled)}
         >
-          Tailwind CSS
+          Awesome Vibes
         </button>
       </div>
       {toggled && (
